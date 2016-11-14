@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JDVOP", "JDVOP\JDVOP.csproj", "{C2BEBE2C-6E3A-477A-9654-8D0F20B94739}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rd", "3rd", "{6DC7E566-14EC-4B43-9ED0-C232F410F5C3}"
+	ProjectSection(SolutionItems) = preProject
+		3rd\LitJson.dll = 3rd\LitJson.dll
+		3rd\Newtonsoft.Json.Net20.dll = 3rd\Newtonsoft.Json.Net20.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
